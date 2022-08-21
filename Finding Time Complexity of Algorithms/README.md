@@ -46,6 +46,13 @@ Compare the return values and print which function is best for a specific proble
     }
   
 ### 🧐 Explanation:
+
+- Here we write a simple for loop(iterative based) and recursive(Euclid's Algorithm) solutions for finding GCD of given two numbers as given in the question.  
+- In these funtions we pass a integer pointer 'c' (c1 and c2 here) such that it keeps a track of the count of iterations done by the respective functions.  
+- We have passed a pointer variable (a prime example for call by reference too!) so as to save the value of count in every iteration/recursion.  
+- The value of c1 and c2 is incremented in each iteration/recursion call, which is denoted as (*c)++.
+- We used a * while incrementing because pointer is being passed to the funtion, and to convert the address(pointer basically) we have used * to revert back to the value of c1 or c2 at their respective address.  
+- And finally in the main funtion, we print the c1 and c2 as shown in the code.
 ---
 ## 🌟 Problem 2: Finding Complexity using Counter Method
 ### ❓ Question:
