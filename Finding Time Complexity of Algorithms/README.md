@@ -47,7 +47,8 @@ Compare the return values and print which function is best for a specific proble
   
 ### 🧐 Explanation:
 
-- Here we write a simple for loop(iterative based) and recursive(Euclid's Algorithm) solutions for finding GCD of given two numbers as given in the question.  
+- Here we write a simple for loop(iterative based) and recursive(Euclid's Algorithm) solutions for finding GCD of given two numbers as given in the question. 
+- Find the GCD of two numbers concept: <a href="https://www.geeksforgeeks.org/c-program-find-gcd-hcf-two-numbers/" target="_blank">Click Me!</a> 
 - In these funtions we pass a integer pointer 'c' (c1 and c2 here) such that it keeps a track of the count of iterations done by the respective functions.  
 - We have passed a pointer variable (a prime example for call by reference too!) so as to save the value of count in every iteration/recursion.  
 - The value of c1 and c2 is incremented in each iteration/recursion call, which is denoted as (*c)++.
