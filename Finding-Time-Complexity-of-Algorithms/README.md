@@ -180,7 +180,7 @@ Note: No need of counter increment for declarations and scanf() and  count varia
 
 - Here, the question clearly states that count the printf() statement also.
 - In the function, first it checks for n==1, so c incremented by 1 and for printf, again incremented by 1.
-- For the else part execution, it's incremented by 1.\
+- For the else part execution, it's incremented by 1.
 - Inside the else part, the first for loop,for condtion checking, it's incremented by 1 (every check till before the termination).
 - Inside the first for loop, we increment the counter again for the nested for loop and then for the two print statements respectively. Note that break statement here has no significance as statements such as break, continue are used only inside if-else statements for their correct execution.
 - And then for each for loop, the termination is done and counter is incremented by 1 for both the loops.
