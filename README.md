@@ -7,7 +7,7 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 
 **Disclaimer:** Students are requested to try the questions on their own and look into explanations only when not able to understand the question and then the code if and only if not able to understand the explanation.  
 
-**Note:** If bugs or typo found, please feel to inform about the correction.
+**Note:** If bugs or typo found, please feel free to inform about the correction.
 
 ---
 
