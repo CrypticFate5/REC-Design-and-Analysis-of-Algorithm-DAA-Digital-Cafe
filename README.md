@@ -11,7 +11,7 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 
 ---
 
-### 🌟 [Finding Time Complexity of Algorithms](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/tree/main/Finding-Time-Complexity-of-Algorithms)
+### 🌟 [Finding Time Complexity of Algorithms](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/tree/main/Finding-Time-Complexity-of-Algorithms/README.md)
 - [COMPLETE SOLUTION WITH EXPLANATION](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Finding-Time-Complexity-of-Algorithms/README.md)
 - [Problem 1-Comparing Complexity Quiz](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Finding-Time-Complexity-of-Algorithms/Problem-1-Comparing-Complexity-Quiz.c)
 - [Problem 2-Finding Complexity using Counter Method](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Finding-Time-Complexity-of-Algorithms/Problem-2-Finding-Complexity-using-Counter-Method.c)
