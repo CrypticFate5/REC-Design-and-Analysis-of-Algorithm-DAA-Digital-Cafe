@@ -1,4 +1,8 @@
 # REC Design and Analysis of Algorithms (DAA) Digital Cafe
+<p align="center">
+  <img  src="cryptic-fate5.svg" />
+</p>
+
 Contains solutions and explanations for REC's DAA Digital Cafe  
 
 **Disclaimer:** Students are requested to try the questions on their own and look into explanations only when not able to understand the question and then the code if and only if not able to understand the explanation.  
@@ -16,3 +20,8 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [Problem 5-Finding Complexity using Counter Method](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Finding-Time-Complexity-of-Algorithms/Problem-5-Finding-Complexity-using-Counter-Method.c)
 - [Problem 6-Finding Complexity using Counter Method](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Finding-Time-Complexity-of-Algorithms/Problem-6-Finding-Complexity-using-Counter-Method.c)
 ---
+<p align="center">
+  <a href="(https://forthebadge.com)">
+  <img  src="https://forthebadge.com/images/badges/built-with-love.svg" />
+</a>
+</p>
