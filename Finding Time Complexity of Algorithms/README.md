@@ -235,11 +235,49 @@ Note: No need of counter increment for declarations and scanf() and  count varia
   
 ### 🧐 Explanation:
 ---
-## 🌟 
+## 🌟 Problem-6: Finding Complexity using counter method
 ### ❓ Question:
+Convert the following algorithm into a program and find its time complexity using counter method.
 
+    void reverse(int n)
+    {
+       int rev = 0, remainder;
+       while (n != 0) 
+        {
+            remainder = n % 10;
+            rev = rev * 10 + remainder;
+            n/= 10;
+
+        }
+    print(rev);
+    }
+ 
+Note: No need of counter increment for declarations and scanf() and  count variable printf() statements.  
 ### 💻 Code:
 
+    #include <stdio.h>
+    void reverse(int n,int*c){
+       int rev = 0, remainder;
+       (*c)++;
+       while (n != 0) {
+           (*c)++;
+           remainder = n % 10;
+           (*c)++;
+           rev = rev * 10 + remainder;
+           (*c)++;
+           n/= 10;
+           (*c)++;
+        }
+        (*c)++;
+        // printf("%d",rev);
+        (*c)++;
+    }
+    int main(){
+        int n,c=0;
+        scanf("%d",&n);
+        reverse(n,&c);
+        printf("%d",c);
+    }
   
 ### 🧐 Explanation:
 ---
