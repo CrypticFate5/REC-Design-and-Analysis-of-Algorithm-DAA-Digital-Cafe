@@ -86,3 +86,160 @@ Manually find the complexity using counter method and write the same in observat
     }
 ### 🧐 Explanation:
 ---
+## 🌟 Problem 3: Finding Complexity using Counter Method
+### ❓ Question:
+Convert the following algorithm into a program and find its time complexity using the counter method.
+
+    void func(int n)
+    { 
+          if(n==1)
+                {
+                    printf("");
+                }
+        else
+                {
+                            for
+    (int i=1; i<=n; i++)
+                            {
+                                        for
+    (int j=1; j<=n; j++)
+                                        {
+                                                    printf
+    ("");
+                                                    printf("");
+                                                    break;
+                                        }
+                            }
+                }                      
+      }
+Note: No need of counter increment for declarations and scanf() and  count variable printf() statements.
+### 💻 Code:
+
+    #include <stdio.h>
+    void func(int n,int*c){
+        if(n==1){
+            (*c)++;
+            // printf(" ");
+            (*c)++;
+        }
+        else{
+            (*c)++;
+            for(int i=1;i<=n;i++){
+                (*c)++;
+                for(int j=1;j<=n;j++){
+                    (*c)++;
+                    // printf(" ");
+                    (*c)++;
+                    // printf(" ");
+                    (*c)++;
+                    break;
+                }
+                (*c)++;
+            }
+            (*c)++;
+        }
+    }
+    int main(){
+        int n;
+        scanf("%d",&n);
+        int c=0;
+        func(n,&c);
+        printf("%d",c);
+    }
+  
+### 🧐 Explanation:
+---
+## 🌟 Problem 4: Finding Complexity using Counter Method
+### ❓ Question:
+Convert the following algorithm into a program and find its time complexity using counter method.
+
+    Factor(n) {
+        {
+        for (i = 1; i <= num;++i)
+        {
+                    if (num % i== 0)
+            {
+                    printf("%d ", i);
+            }
+
+        }
+            return 0;
+    }
+ 
+Note: No need of counter increment for declarations and scanf() and  printf() statements.  
+### 💻 Code:
+
+    #include <stdio.h>
+    void factor(int n,int *c) {
+        (*c)++;
+        for (int i = 1; i <=n;i++){
+            (*c)++;
+            (*c)++;
+            if (n % i== 0){
+                // printf("%d ", i);
+            }
+        }
+        (*c)++;
+        // return 0;
+    }
+    int main(){
+        int n,c=0;
+        scanf("%d",&n);
+        factor(n,&c);
+        printf("%d",c);
+    }
+  
+### 🧐 Explanation:
+---
+## 🌟 Problem 5: Finding Complexity using Counter Method
+### ❓ Question:
+Convert the following algorithm into a program and find its time complexity using counter method.
+
+    void function(int n)
+    {
+        int c= 0;
+        for(int i=n/2; i<n; i++)
+            for(int j=1; j<n; j = 2 * j)
+                for(int k=1; k<n; k = k * 2)
+                    c++;
+    }
+    
+Note: No need of counter increment for declarations and scanf() and  count variable printf() statements.  
+### 💻 Code:
+
+    #include <stdio.h>
+    void function(int n,int *c1){
+        int c= 0;
+        (*c1)++;
+        for(int i=n/2; i<n; i++){
+            (*c1)++;
+            for(int j=1; j<n; j = 2 * j){
+                (*c1)++;
+                for(int k=1; k<n; k = k * 2){
+                    (*c1)++;
+                    c++;
+                    (*c1)++;
+                }
+                (*c1)++;
+            }
+            (*c1)++;
+        }
+        (*c1)++;
+    }
+    int main(){
+        int n,c1=0;
+        scanf("%d",&n);
+        function(n,&c1);
+        printf("%d",c1);
+    }
+  
+### 🧐 Explanation:
+---
+## 🌟 
+### ❓ Question:
+
+### 💻 Code:
+
+  
+### 🧐 Explanation:
+---
