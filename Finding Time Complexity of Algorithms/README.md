@@ -1,5 +1,5 @@
 # Finding Time Complexity of Algorithms
-
+---
 ## 🌟 Problem 1: Comparing Complexity
 ### ❓ Question:
 Given two positive integers, determine the GCD of the numbers.  
@@ -46,3 +46,43 @@ Compare the return values and print which function is best for a specific proble
     }
   
 ### 🧐 Explanation:
+---
+## 🌟 Problem 2: Finding Complexity using Counter Method
+### ❓ Question:
+Convert the following algorithm into a program and find its time complexity using the counter method.  
+
+    void function (int n)  
+    {  
+      int i= 1, s =1;  
+        while(s <= n)  
+        {  
+          i++;  
+          s += i;  
+        }          
+    }     
+Note: No need of counter increment for declarations and scanf() and  count variable printf() statements.  
+Manually find the complexity using counter method and write the same in observation  
+### 💻 Code:
+    #include <stdio.h>
+    void function(int n,int*c){
+        int i=1,s=1;
+        (*c)+=2;
+        while(s<=n){
+            (*c)++;
+            i++;
+            (*c)++;
+            s+=i;
+            (*c)++;
+
+        }
+        (*c)++;
+    }
+    int main(){
+        int n;
+        scanf("%d",&n);
+        int c=0;
+        function(n,&c);
+        printf("%d",c);
+    }
+### 🧐 Explanation:
+---
