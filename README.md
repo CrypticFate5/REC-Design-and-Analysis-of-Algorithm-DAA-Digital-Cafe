@@ -20,8 +20,8 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [Problem 5-Finding Complexity using Counter Method](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Finding-Time-Complexity-of-Algorithms/Problem-5-Finding-Complexity-using-Counter-Method.c)
 - [Problem 6-Finding Complexity using Counter Method](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Finding-Time-Complexity-of-Algorithms/Problem-6-Finding-Complexity-using-Counter-Method.c)
 ---
-### 🌟 [Brute Force Strategy- Simple Programs](REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe\Brute-Force-Strategy-Simple-Programs\README.md)
-- [**COMPLETE SOLUTION WITH EXPLANATION**](REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe\Brute-Force-Strategy-Simple-Programs\README.md)
+### 🌟 [Brute Force Strategy- Simple Programs](Brute-Force-Strategy-Simple-Programs\README.md)
+- [**COMPLETE SOLUTION WITH EXPLANATION**](Brute-Force-Strategy-Simple-Programs\README.md)
 - [Problem 1-Finding Duplicates](Brute-Force-Strategy-Simple-Programs/Finding-Duplicates.c)
 - [Problem 2-Bubble Sort](Brute-Force-Strategy-Simple-Programs/Bubble-Sort.c)
 - [Problem 3-Pair with Difference](Brute-Force-Strategy-Simple-Programs/Pair-with-Difference.c)
