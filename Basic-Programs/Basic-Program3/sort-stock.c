@@ -163,20 +163,20 @@ int *itemsSort(int items_count, int *items, int *result_count)
     *result_count = items_count;
     return result;
 }
-int main()
-{
-    int items_count;
-    scanf("%d", &items_count);
-    int items[items_count];
-    for (int i = 0; i < items_count; i++)
-    {
-        scanf("%d", &items[i]);
-    }
-    int *res;
-    res = itemsSort(items_count, items, res);
-    for (int i = 0; i < items_count; i++)
-    {
-        printf("%d\n", res[i]);
-    }
-    return 0;
-}
+// int main()
+// {
+//     int items_count;
+//     scanf("%d", &items_count);
+//     int items[items_count];
+//     for (int i = 0; i < items_count; i++)
+//     {
+//         scanf("%d", &items[i]);
+//     }
+//     int *res;
+//     res = itemsSort(items_count, items, res);
+//     for (int i = 0; i < items_count; i++)
+//     {
+//         printf("%d\n", res[i]);
+//     }
+//     return 0;
+// }
