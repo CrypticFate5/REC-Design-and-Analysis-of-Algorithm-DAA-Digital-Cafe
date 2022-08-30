@@ -30,7 +30,7 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 
 - [Basic Programs-3](Basic-Programs/Basic-Program3/)
 
-  - [Keystrokes Problem](Basic-Program3/keystrokes.c)
+  - [Keystrokes Problem](/Basic-Program3/keystrokes.c)
   - [Locker open/close Problem](Basic-Program3/locker.c)
   - [Power of Two](Basic-Program3/pow-of-two.c)
   - [Sorted Stock](Basic-Program3/sort-stock.c)
