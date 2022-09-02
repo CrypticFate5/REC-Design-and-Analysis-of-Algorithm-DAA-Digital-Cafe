@@ -61,6 +61,7 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [Problem 5- Print Intersection of two sorted arrays](Brute-Force-Strategy-Simple-Programs/Print-intersection-of-2-sorted-arrays.c)
 - [Problem 6- Add to array](Brute-Force-Strategy-Simple-Programs/Add-Array.c)
 - [Problem 7- Find Words](Brute-Force-Strategy-Simple-Programs/Find-Words.c)
+- [Problem 8- Subset Sum](Brute-Force-Strategy-Simple-Programs/Subset-Sum.c)
 
 ---
 
