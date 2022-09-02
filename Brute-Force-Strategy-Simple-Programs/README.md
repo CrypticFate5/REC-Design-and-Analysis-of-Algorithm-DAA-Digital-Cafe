@@ -273,26 +273,20 @@ Constraints:
 ## 🌟 Problem 7: Find Words 
 ### ❓ Question:  
 
-You are given an array of strings words and a string chars.
-
-A string is good if it can be formed by characters from chars (each character can only be used once).
-
+You are given an array of strings words and a string chars. A string is good if it can be formed by characters from chars (each character can only be used once).  
 Return the sum of lengths of all good strings in words.
 
-Example 1:
-
+Example 1:  
 Input: words = ["cat","bt","hat","tree"], chars = "atach"  
 Output: 6  
-Explanation: The strings that can be formed are "cat" and "hat" so the answer is 3 + 3 = 6.
-Example 2:
+Explanation: The strings that can be formed are "cat" and "hat" so the answer is 3 + 3 = 6.  
 
+Example 2:  
 Input: words = ["hello","world","leetcode"], chars = "welldonehoneyr"  
 Output: 10  
 Explanation: The strings that can be formed are "hello" and "world" so the answer is 5 + 5 = 10.
  
-
-Constraints:
-
+Constraints:  
 1 <= words.length <= 1000  
 1 <= words[i].length, chars.length <= 100  
 words[i] and chars consist of lowercase English letters.
@@ -343,6 +337,65 @@ words[i] and chars consist of lowercase English letters.
             }
         }
         printf("%d", ans);
+        return 0;
+    }
+
+### 🧐 Explanation:
+
+-
+
+---
+## 🌟 Problem 8: Subset Sum
+### ❓ Question:  
+
+Given a non-empty array nums containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
+
+Constraints:  
+1 <= n <= 200  
+1 <= nums[i] <= 100  
+
+### 💻 Code:
+
+    #include <stdio.h>
+    int help(int *arr, int n, int j, int sum)
+    {
+        if (sum <= 0 || j == n)
+        {
+            if (sum == 0)
+            {
+                return 1;
+            }
+            return 0;
+        }
+        if (help(arr, n, j + 1, sum - arr[j]))
+            return 1;
+        if (help(arr, n, j + 1, sum))
+            return 1;
+        return 0;
+    }
+    int main()
+    {
+        int n, sum = 0;
+        scanf("%d", &n);
+        int arr[n];
+        for (int i = 0; i < n; i++)
+        {
+            scanf("%d", &arr[i]);
+            sum += arr[i];
+        }
+        if (sum % 2 == 1)
+        {
+            printf("false");
+            return 0;
+        }
+        if (help(arr, n, 0, sum))
+        {
+            printf("true");
+        }
+        else
+        {
+            printf("false");
+        }
         return 0;
     }
 
