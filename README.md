@@ -62,9 +62,19 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [Problem 6- Add to array](Brute-Force-Strategy-Simple-Programs/Add-Array.c)
 - [Problem 7- Find Words](Brute-Force-Strategy-Simple-Programs/Find-Words.c)
 - [Problem 8- Subset Sum](Brute-Force-Strategy-Simple-Programs/Subset-Sum.c)
+- [Problem 9- Assignment Problem](Brute-Force-Strategy-Simple-Programs/Assignment-Prob.c)
 
 ---
 
+## 🌟 [Divide and Conquer Problems]()
+
+- [**COMPLETE SOLUTION WITH EXPLANATION**]()
+- [Problem 1-Number of Zeroes in a given Array](Divide-and-Conquer/Number-of-zeroes.c)
+- []()
+- []()
+- []()
+
+---
 <p align="center">
   <a href="(https://forthebadge.com)">
   <img  src="https://forthebadge.com/images/badges/built-with-love.svg" />

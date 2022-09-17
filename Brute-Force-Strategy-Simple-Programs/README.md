@@ -404,3 +404,74 @@ Constraints:
 -
 
 ---
+## 🌟 Problem 9: Assignment Problem
+### ❓ Question:  
+
+The assignment problem consists of finding, in a weighted bipartite graph, a matching of a given size, in which the sum of weights of the edges is minimum. If the numbers of agents and tasks are equal, then the problem is called balanced assignment. Otherwise, it is called unbalanced assignment.
+
+For example, suppose an accounts officer has 4 subordinates and 4 tasks. The subordinates differ in efficiency and take different time to perform each task. If one task is to be assigned to one person in such a way that the total person hours are minimised, the problem is called an assignment problem.
+
+Write C program to implement the above problem. 
+
+### 💻 Code:
+
+    #include <stdio.h>
+
+    void assignment(int *initial, int row, int n, int j, int arr[][n], int sub, int *ans, int map[])
+    {
+        if (j == n)
+        {
+            if ((*initial) == 1)
+            {
+                *initial = 0;
+                (*ans) = sub;
+            }
+            else
+            {
+                if (sub < (*ans))
+                {
+                    (*ans) = sub;
+                }
+            }
+            return;
+        }
+        for (int i = 0; i < n; i++)
+        {
+            if (map[i] == 1)
+            {
+                map[i] = 0;
+                sub += arr[row][i];
+                assignment(initial, row + 1, n, j + 1, arr, sub, ans, map);
+                map[i] = 1;
+                sub -= arr[row][i];
+            }
+        }
+    }
+    int main()
+    {
+        int n;
+        scanf("%d", &n);
+        int arr[n][n];
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                scanf("%d", &arr[i][j]);
+            }
+        }
+        int map[n];
+        for (int i = 0; i < n; i++)
+        {
+            map[i] = 1;
+        }
+        int ans = 0, initial = 1;
+        assignment(&initial, 0, n, 0, arr, 0, &ans, map);
+        printf("%d", ans);
+        return 0;
+    }
+
+### 🧐 Explanation:
+
+-
+
+---
