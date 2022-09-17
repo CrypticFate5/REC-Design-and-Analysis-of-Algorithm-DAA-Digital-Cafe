@@ -69,7 +69,7 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 ## 🌟 [Divide and Conquer Problems]()
 
 - [**COMPLETE SOLUTION WITH EXPLANATION**]()
-- [Problem 1-Number of Zeroes in a given Array]()
+- []()
 - []()
 - []()
 - []()
