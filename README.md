@@ -69,8 +69,8 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 ## 🌟 [Divide and Conquer Problems](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Divide-and-Conquer/README.md)
 
 - [**COMPLETE SOLUTION WITH EXPLANATION**](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Divide-and-Conquer/README.md)
-- []()
-- []()
+- [Number of Zeroes](Divide-and-Conquer/Number-of-zeroes.c)
+- [Majority Element](Divide-and-Conquer/Majority-Element.c)
 - []()
 - []()
 
