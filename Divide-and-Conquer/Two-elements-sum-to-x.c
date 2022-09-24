@@ -19,7 +19,6 @@ int help(int *arr, int n, int *map, int j, int x)
             x -= arr[i];
             if (help(arr, n, map, j + 1, x))
                 return 1;
-            ;
             map[i] = 0;
             x += arr[i];
         }
