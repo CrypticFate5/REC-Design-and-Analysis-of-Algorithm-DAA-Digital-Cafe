@@ -71,8 +71,9 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [**COMPLETE SOLUTION WITH EXPLANATION**](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Divide-and-Conquer/README.md)
 - [Number of Zeroes](Divide-and-Conquer/Number-of-zeroes.c)
 - [Majority Element](Divide-and-Conquer/Majority-Element.c)
-- []()
-- []()
+- [Finding Floor Value](Divide-and-Conquer/Finding-Floor-Value.c)
+- [Find an element in a sorted matrix](Divide-and-Conquer/Finding-element-in-sorted-matrix.c)
+- [Two elements sum to x](Divide-and-Conquer/Two-elements-sum-to-x.c)
 
 ---
 <p align="center">
