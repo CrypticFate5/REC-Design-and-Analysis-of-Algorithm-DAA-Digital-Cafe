@@ -12,6 +12,19 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 ---
 ## 🌟 [Basic Programs](Basic-Programs/)
 
+- [Basic](Basic-Programs/Basic/)
+
+  - [Swap Two Numbers](Basic-Programs/Basic/Swap-Two-Numbers.c)
+  - [Remainder and Quotient of given integers](Basic-Programs/Basic/Rem-Quo.c)
+  - [Greatest of three integers](Basic-Programs/Basic/Greatest-of-three.c)
+  - [Odd or Even](Basic-Programs/Basic/Odd-Even.c)
+  - [Factorial of a Number](Basic-Programs/Basic/Factorial.c)
+  - [Sum of first N natural numbers](Basic-Programs/Basic/Sum-of-First-N.c)
+  - [Fibonacci Nth term](Basic-Programs/Basic/Fibo.c)
+  - [Power of Integer](Basic-Programs/Basic/Pow-of-Int.c)
+  - [Prime Number](Basic-Programs/Basic/Prime-Num.c)
+  - [Reverse an Integer](Basic-Programs/Basic/Rev-Int.c)
+
 - [Basic Programs-1](Basic-Programs/Basic-Program1/)
   
   - [nth term of Fibonacci series](Basic-Programs/Basic-Program1/fibo.c)
