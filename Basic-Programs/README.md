@@ -1,5 +1,19 @@
 # Basic Programs
 ---
+## Basic
+
+- [Swap Two Numbers](Basic/Swap-Two-Numbers.c)
+- [Remainder and Quotient of given integers](Basic/Rem-Quo.c)
+- [Greatest of three integers](Basic/Greatest-of-three.c)
+- [Odd or Even](Basic/Odd-Even.c)
+- [Factorial of a Number](Basic/Factorial.c)
+- [Sum of first N natural numbers](Basic/Sum-of-First-N.c)
+- [Fibonacci Nth term](Basic/Fibo.c)
+- [Power of Integer](Basic/Pow-of-Int.c)
+- [Prime Number](Basic/Prime-Num.c)
+- [Reverse an Integer](Basic/Rev-Int.c)
+---
+
 ## Basic Programs-1
 
 - [nth term of Fibonacci series](Basic-Program1/fibo.c)
