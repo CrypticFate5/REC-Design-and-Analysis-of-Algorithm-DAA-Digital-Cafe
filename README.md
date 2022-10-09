@@ -90,15 +90,15 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 
 ---
 
-## 🌟 [Greedy Algorithm Problems]
+## 🌟 [Greedy Algorithm Problems](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Greedy-Algorithms/README.md)
 
-- [**COMPLETE SOLUTION WITH EXPLANATION**]
+- [**COMPLETE SOLUTION WITH EXPLANATION**](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Greedy-Algorithms/README.md)
 - [Problem 1](Greedy-Algorithms/Problem-1.c)
 - [Problem 2](Greedy-Algorithms/Problem-2.c)
 - [Problem 3](Greedy-Algorithms/Problem-3.c)
 - [Problem 4](Greedy-Algorithms/Problem-4.c)
 - [Problem 5](Greedy-Algorithms/Problem-5.c)
-- [Problem 6](Greedy-Algorithms/Problem-6.c)
+- [Problem 6]
 
 ---
 <p align="center">
