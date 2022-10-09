@@ -89,6 +89,18 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [Two elements sum to x](Divide-and-Conquer/Two-elements-sum-to-x.c)
 
 ---
+
+## 🌟 [Greedy Algorithm Problems]
+
+- [**COMPLETE SOLUTION WITH EXPLANATION**]
+- [Problem 1](Greedy-Algorithms/Problem-1.c)
+- [Problem 2](Greedy-Algorithms/Problem-2.c)
+- [Problem 3](Greedy-Algorithms/Problem-3.c)
+- [Problem 4](Greedy-Algorithms/Problem-4.c)
+- [Problem 5](Greedy-Algorithms/Problem-5.c)
+- [Problem 6](Greedy-Algorithms/Problem-6.c)
+
+---
 <p align="center">
   <a href="(https://forthebadge.com)">
   <img  src="https://forthebadge.com/images/badges/built-with-love.svg" />
