@@ -17,10 +17,10 @@ Explanation: There are 6 ways to 6 represent number with 1 and 3
          1+3+1+1  
          3+1+1+1  
 Input Format  
-First Line contains the number n
+First Line contains the number n.
  
 Output Format  
-Print: The number of possible ways ‘n’ can be represented using 1 and 3
+Print: The number of possible ways ‘n’ can be represented using 1 and 3.
 
 
 ### 💻 Code:
