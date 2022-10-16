@@ -42,7 +42,12 @@ Print: The number of possible ways ‘n’ can be represented using 1 and 3
         printf("%lld", prev1);
         return 0;
     }
-    
+
+### 🧐 Complexity:
+
+- Time Complexity: O(n)
+- Space Complexity: O(1)
+
 ### 🧐 Explanation:
 
 -
