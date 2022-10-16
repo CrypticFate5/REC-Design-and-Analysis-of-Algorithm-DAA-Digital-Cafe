@@ -101,9 +101,9 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [Problem 6]
 
 ---
-## 🌟 [Dynamic Programming Problems]()
+## 🌟 [Dynamic Programming Problems](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Dynamic-Programming/README.md)
 
-- [**COMPLETE SOLUTION WITH EXPLANATION**]()
+- [**COMPLETE SOLUTION WITH EXPLANATION**](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Dynamic-Programming/README.md)
 - [Playing With Numbers](Dynamic-Programming/Playing-With-Numbers.c)
 - [Longest Common Subsequence]
 - [Longest non-decreasing subsequence]
