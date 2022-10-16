@@ -43,7 +43,7 @@ Print: The number of possible ways ‘n’ can be represented using 1 and 3.
         return 0;
     }
 
-### 🧐 Complexity:
+### ⌚🚀 Complexity:
 
 - Time Complexity: O(n)
 - Space Complexity: O(1)
