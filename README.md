@@ -101,6 +101,15 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [Problem 6]
 
 ---
+## 🌟 [Dynamic Programming Problems]()
+
+- [**COMPLETE SOLUTION WITH EXPLANATION**]()
+- [Playing With Numbers](Dynamic-Programming/Playing-With-Numbers.c)
+- [Longest Common Subsequence]
+- [Longest non-decreasing subsequence]
+- [Playing wth chessboard]
+
+---
 <p align="center">
   <a href="(https://forthebadge.com)">
   <img  src="https://forthebadge.com/images/badges/built-with-love.svg" />
