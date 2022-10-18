@@ -16,6 +16,7 @@ Explanation: There are 6 ways to 6 represent number with 1 and 3
          1+1+3+1  
          1+3+1+1  
          3+1+1+1  
+         
 Input Format  
 First Line contains the number n.
  
