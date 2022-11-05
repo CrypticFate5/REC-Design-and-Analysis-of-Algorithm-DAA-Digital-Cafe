@@ -110,6 +110,14 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [Playing wth chessboard]
 
 ---
+## 🌟 [Backtracking Problems](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Backtracking/README.md)
+
+- [**COMPLETE SOLUTION WITH EXPLANATION**](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Backtracking/README.md)
+- [PP1- Hamiltonian Cycle](Backtracking/PP1-Hamiltonian-Cycle.c)
+- [PP2- Graph Colouring]
+- [PP3- Subset Sum](Backtracking/PP3-Subset-Sum.c)
+
+---
 <p align="center">
   <a href="(https://forthebadge.com)">
   <img  src="https://forthebadge.com/images/badges/built-with-love.svg" />
