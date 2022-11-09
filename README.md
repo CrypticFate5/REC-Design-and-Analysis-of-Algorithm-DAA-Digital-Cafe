@@ -98,23 +98,23 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [Problem 3](Greedy-Algorithms/Problem-3.c)
 - [Problem 4](Greedy-Algorithms/Problem-4.c)
 - [Problem 5](Greedy-Algorithms/Problem-5.c)
-- [Problem 6]
+- [Problem 6](Greedy-Algorithms/Problem-6.c)
 
 ---
 ## 🌟 [Dynamic Programming Problems](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Dynamic-Programming/README.md)
 
 - [**COMPLETE SOLUTION WITH EXPLANATION**](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Dynamic-Programming/README.md)
 - [Playing With Numbers](Dynamic-Programming/Playing-With-Numbers.c)
-- [Longest Common Subsequence]
-- [Longest non-decreasing subsequence]
-- [Playing wth chessboard]
+- [Longest Common Subsequence](Dynamic-Programming/Longest-Common-Subsequence.c)
+- [Longest non-decreasing subsequence](Dynamic-Programming/Longest-non-Decreasing-Subsquence.c)
+- [Playing wth chessboard](Dynamic-Programming/Playing-with-Chessboard.c)
 
 ---
 ## 🌟 [Backtracking Problems](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Backtracking/README.md)
 
 - [**COMPLETE SOLUTION WITH EXPLANATION**](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/Backtracking/README.md)
 - [PP1- Hamiltonian Cycle](Backtracking/PP1-Hamiltonian-Cycle.c)
-- [PP2- Graph Colouring]
+- [PP2- Graph Colouring](Backtracking/PP2-Graph-Colouring.c)
 - [PP3- Subset Sum](Backtracking/PP3-Subset-Sum.c)
 
 ---
