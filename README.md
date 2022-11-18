@@ -118,6 +118,13 @@ Contains solutions and explanations for REC's DAA Digital Cafe
 - [PP3- Subset Sum](Backtracking/PP3-Subset-Sum.c)
 
 ---
+## 🌟 [String Matching Problems](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/String-Matching/README.md)
+
+- [**COMPLETE SOLUTION WITH EXPLANATION**](https://github.com/CrypticFate5/REC-Design-and-Analysis-of-Algorithm-DAA-Digital-Cafe/blob/main/String-Matching/README.md)
+- [Rabin Karp Algorithm](String-Matching/Rabin-Karp.c)
+- [KMP Algorithm](String-Matching/KMP-Algo.c)
+
+---
 <p align="center">
   <a href="(https://forthebadge.com)">
   <img  src="https://forthebadge.com/images/badges/built-with-love.svg" />
