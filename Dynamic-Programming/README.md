@@ -79,26 +79,30 @@ The length is 4
             return a;
         return b;
     }
-    int help(int a, int b, char *x, char *y)
+    int help(int a, int b, char *x, char *y, int dp[][b + 1])
     {
         if (a < 0 || b < 0)
             return 0;
+        if (dp[a][b] != -1)
+            return dp[a][b];
         if (x[a] == y[b])
-            return 1 + help(a - 1, b - 1, x, y);
-        return max(help(a - 1, b, x, y), help(a, b - 1, x, y));
+            return 1 + help(a - 1, b - 1, x, y, dp);
+        return dp[a][b] = max(help(a - 1, b, x, y, dp), help(a, b - 1, x, y, dp));
     }
     int main()
     {
         char x[100], y[100];
         scanf("%s %s", x, y);
-        printf("%d", help(strlen(x) - 1, strlen(y) - 1, x, y));
+        int a = strlen(x), b = strlen(y);
+        int dp[a][b];
+        memset(dp, -1, sizeof(dp));
+        printf("%d", help(strlen(x) - 1, strlen(y) - 1, x, y, dp));
         return 0;
     }
-
 ### ⌚🚀 Complexity:
 
-- Time Complexity: O(2<sup>n+m</sup>)
-- Space Complexity: O(n)+O(m)
+- Time Complexity: O(n*m)
+- Space Complexity: O(n*m)
 ### 🧐 Explanation:
 
 -
@@ -124,35 +128,43 @@ Output:6
     
     #include <stdio.h>
     #include <limits.h>
-    
-    void help(int *arr, int n, int j, int l, int prev, int *ans)
+    #include <string.h>
+    int max(int a, int b)
     {
-        if (j == n)
-        {
-            if (l > *ans)
-                *ans = l;
-            return;
-        }
-        if (arr[j] >= prev)
-            help(arr, n, j + 1, l + 1, arr[j], ans);
-        help(arr, n, j + 1, l, prev, ans);
+        if (a > b)
+            return a;
+        return b;
+    }
+    int help(int *arr, int n, int i, int prev, int dp[][n + 1])
+    {
+        if (i == n)
+            return 0;
+        if (dp[i][prev + 1] != -1)
+            return dp[i][prev + 1];
+        int l = help(arr, n, i + 1, prev, dp);
+        int r = INT_MAX;
+        if (prev == -1 || arr[i] >= arr[prev])
+            r = 1 + help(arr, n, i + 1, i, dp);
+        return dp[i][prev + 1] = max(l, r);
     }
     int main()
     {
-        int n, ans = 0;
+        int n;
         scanf("%d", &n);
         int arr[n];
         for (int i = 0; i < n; i++)
             scanf("%d", &arr[i]);
-        help(arr, n, 0, 0, INT_MIN, &ans);
+        int dp[n][n + 1];
+        memset(dp, -1, sizeof(dp));
+        int ans = help(arr, n, 0, -1, dp);
         printf("%d", ans);
         return 0;
     }
 
 ### ⌚🚀 Complexity:
 
-- Time Complexity: O(2<sup>n</sup>)
-- Space Complexity: O(n)+O(n)
+- Time Complexity: O(n<sup>2</sup>)
+- Space Complexity: O(n<sup>2</sup>)
 
 ### 🧐 Explanation:
 
@@ -191,16 +203,18 @@ Optimal path value- 1+2+8+7+1=19
         return b;
     }
 
-    int help(int n, int chess[][n], int i, int j)
+    int help(int n, int chess[][n], int i, int j, int dp[][n])
     {
         if (i == n - 1 && j == n - 1)
             return chess[n - 1][n - 1];
+        if (dp[i][j] != -1)
+            return dp[i][j];
         int l = 0, r = 0;
         if (i < n - 1)
-            l = chess[i][j] + help(n, chess, i + 1, j);
+            l = chess[i][j] + help(n, chess, i + 1, j, dp);
         if (j < n - 1)
-            r = chess[i][j] + help(n, chess, i, j + 1);
-        return max(l, r);
+            r = chess[i][j] + help(n, chess, i, j + 1, dp);
+        return dp[i][j] = max(l, r);
     }
 
     int main()
@@ -213,13 +227,15 @@ Optimal path value- 1+2+8+7+1=19
             for (int j = 0; j < n; j++)
                 scanf("%d", &chess[i][j]);
         }
-        printf("%d", help(n, chess, 0, 0));
+        int dp[n][n];
+        memset(dp, -1, sizeof(dp));
+        printf("%d", help(n, chess, 0, 0, dp));
         return 0;
     }
 
 ### ⌚🚀 Complexity:
 
-- Time Complexity: O(2<sup>n*n</sup>)
+- Time Complexity: O(n<sup>2</sup>)
 - Space Complexity: O(n<sup>2</sup>)
 
 ### 🧐 Explanation:

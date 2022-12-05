@@ -8,16 +8,18 @@ int max(int a, int b)
     return b;
 }
 
-int help(int n, int chess[][n], int i, int j)
+int help(int n, int chess[][n], int i, int j, int dp[][n])
 {
     if (i == n - 1 && j == n - 1)
         return chess[n - 1][n - 1];
+    if (dp[i][j] != -1)
+        return dp[i][j];
     int l = 0, r = 0;
     if (i < n - 1)
-        l = chess[i][j] + help(n, chess, i + 1, j);
+        l = chess[i][j] + help(n, chess, i + 1, j, dp);
     if (j < n - 1)
-        r = chess[i][j] + help(n, chess, i, j + 1);
-    return max(l, r);
+        r = chess[i][j] + help(n, chess, i, j + 1, dp);
+    return dp[i][j] = max(l, r);
 }
 
 int main()
@@ -30,6 +32,8 @@ int main()
         for (int j = 0; j < n; j++)
             scanf("%d", &chess[i][j]);
     }
-    printf("%d", help(n, chess, 0, 0));
+    int dp[n][n];
+    memset(dp, -1, sizeof(dp));
+    printf("%d", help(n, chess, 0, 0, dp));
     return 0;
 }
