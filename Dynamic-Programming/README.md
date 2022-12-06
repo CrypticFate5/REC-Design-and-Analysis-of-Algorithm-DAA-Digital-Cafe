@@ -142,7 +142,7 @@ Output:6
         if (dp[i][prev + 1] != -1)
             return dp[i][prev + 1];
         int l = help(arr, n, i + 1, prev, dp);
-        int r = INT_MAX;
+        int r = INT_MIN;
         if (prev == -1 || arr[i] >= arr[prev])
             r = 1 + help(arr, n, i + 1, i, dp);
         return dp[i][prev + 1] = max(l, r);
